@@ -116,6 +116,7 @@ body {
 	top: 13px;
 	right: 55px;
     filter: saturate(0);
+    cursor: pointer;
 }
 
 .search .cam-icon {
@@ -125,6 +126,7 @@ body {
 	top: 13px;
 	right: 15px;
     filter: saturate(0);
+    cursor: pointer;
 }
 
 .search-button {
