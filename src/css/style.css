@@ -69,6 +69,7 @@ body {
     display: block;
 	margin: 0px auto;
 	margin-top: 107px;
+    filter: saturate(0);
 }
 
 .search {
@@ -81,7 +82,7 @@ body {
 
 .search .search-input {
     display: block;
-	border: 1px solid #ddd;
+	border: 1px solid #4d5156;
 	color: rgba(0,0,0, 0.87);
 	font-size: 16px;
 	padding: 13px;
@@ -90,16 +91,70 @@ body {
 	width: 100%;
 	transition: box-shadow 100ms;
 	outline: none;
+    background-color: #4d5156;
 }
 
 .search .search-input:hover {
-    border: 1px solid #fff;
-	box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
-				0 0 2px rgba(0, 0, 0, 0.05),
-				0 0 3px rgba(0, 0, 0, 0.05),
-				0 0 4px rgba(0, 0, 0, 0.05), 
-				0 0 5px rgba(0, 0, 0, 0.05), 
-				0 0 4px rgba(0, 0, 0, 0.05), 
-				0 0 5px rgba(0, 0, 0, 0.05)
+    background-color: #5f6368;
 }
 
+.search .search-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.4;
+	position: absolute;
+	top: 13px;
+	left: 14px;
+    filter: invert(1);
+}
+
+.search .mic-icon {
+    height: 24px;
+    width: 24px;
+	position: absolute;
+	top: 13px;
+	right: 55px;
+    filter: saturate(0);
+}
+
+.search .cam-icon {
+    width: 24px;
+    height: 24px;
+	position: absolute;
+	top: 13px;
+	right: 15px;
+    filter: saturate(0);
+}
+
+.search-button {
+    border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #e8eaed;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 28px;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 100ms;
+    background-color: #303134;
+}
+
+.search-button:hover {
+    border: 1px solid #5f6368;
+}
+
+.lang {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: #bfbfbf;
+}
+.lang a {
+	margin-left: 5px;
+	color: #99c3ff;
+}
+.lang a:hover {
+	text-decoration: underline;
+}
