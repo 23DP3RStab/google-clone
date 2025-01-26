@@ -64,12 +64,14 @@ body {
 
 .main {
     flex: 1;
+    justify-content: center;
+    padding-top: 150px;
 }
 
 .main .banner {
     display: block;
 	margin: 0px auto;
-	margin-top: 107px;
+	margin-top: 110px;
     filter: saturate(0);
 }
 
